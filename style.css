@@ -302,7 +302,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -962,7 +962,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1039,4 +1039,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+/*modifs*/
+
+.navbar-brand{
+    height: 40px;
 }
