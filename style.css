@@ -1094,3 +1094,8 @@ section .col-sm-12 h4{
     font-size: 22px;
     line-height: 1.4em;
 }
+
+footer .col-sm-12 p,
+footer .fa{
+    color: black !important;
+}
