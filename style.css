@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
@@ -1046,4 +1046,51 @@ h4 {
 
 .navbar-brand{
     height: 40px;
+}
+
+main .col-sm-12 h2{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.col-xs-12 h4{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-style: oblique;
+    opacity: 0.9; 
+    line-height: 1.1;
+}
+
+.col-xs-12 h4 span{
+    font-style: normal;
+    font-weight: 0;
+    color: #575757;
+}
+
+article .col-sm-12 h4{
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+section .col-sm-12 h4{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#bloc-4-portfolio h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333 !important;
+}
+
+#bloc-4-portfolio p{
+    font-size: 16px;
+}
+
+#bloc-5-cta h5{
+    font-size: 22px;
+    line-height: 1.4em;
 }
