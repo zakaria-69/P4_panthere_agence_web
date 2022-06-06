@@ -16,7 +16,9 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: blue !important;
 }
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -655,7 +657,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+   width: 100%;
 }
 
 .hero-bloc-text {
@@ -1097,5 +1099,13 @@ section .col-sm-12 h4{
 
 footer .col-sm-12 p,
 footer .fa{
+    color: black !important;
+}
+
+footer .fa:hover{
+    color: blue !important;
+}
+
+.retour{
     color: black !important;
 }
