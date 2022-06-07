@@ -782,12 +782,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -1050,6 +1050,7 @@ h4 {
     height: 40px;
 }
 
+
 main .col-sm-12 h2{
     width: 60%;
     margin: 0 auto;
@@ -1110,17 +1111,24 @@ footer .fa:hover{
     color: black !important;
     width: 100%;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 20px;
 }
 
 .retour a{
     color: black !important;
+    margin-top: 25px;
+}
+
+.retour a:hover{
+    color: blue !important;
 }
 
 
 article .col-sm-12 h4,
 article .col-sm-12 p,
-article .col-sm-12 a{
+article .col-sm-12 a,
+#bloc-6 h1,
+section .col-sm-12 p{
     color: black !important;
 }
 
@@ -1129,11 +1137,41 @@ article .col-sm-12 a{
     font-weight: 700;
 }
 
+footer .social,
+#reseaux-sociaux{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer .social span{
+    margin: 0 auto;
+}
 
 @media screen and (max-width:767px){
 .col-sm-6 img{
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
     height: 100%;
     object-fit: cover;
 }
+
+#nav-toggle{
+    margin: 0 auto;   
 }
+
+.icon-bar{
+    margin: 5px 0;
+}
+}
+
+@media screen and (max-width:375px){
+    .col-sm-6 img{
+        width: 70%;
+        margin: 0 auto;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    }
+    
