@@ -1067,13 +1067,17 @@ main .col-sm-12 h2{
 
 .col-xs-12 h4 span{
     font-style: normal;
-    font-weight: 1;
     color: #575757;
 }
 
 article .col-sm-12 h4{
     font-size: 22px;
     line-height: 1.4;
+    font-weight: 700;
+}
+
+article .col-sm-12 p{
+    font-weight: 600;
 }
 
 section .col-sm-12 h4{
